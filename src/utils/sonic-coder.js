@@ -3,7 +3,7 @@
  * A way of representing characters with frequency.
  */
 var ALPHABET = '\n abcdefghijklmnopqrstuvwxyz0123456789,.!?@*';
-
+/* Ensure Alphabet only, 26-character. Sync with SilverPush Alphabet-Frequency-Key #EM */ 
 export default function SonicCoder(params) {
   params = params || {};
   this.freqMin = params.freqMin || 18500;
